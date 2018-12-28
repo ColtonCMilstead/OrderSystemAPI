@@ -1,9 +1,7 @@
 # OrderSystemAPI
 An improved version of Pet_Store_Order_API. Accepts a Post Request with order entry data and makes HTTP call to an Inventory API to acquire product data. Takes data from both sources to create an order summary.
 
-The OrderSystemAPI project recieves an order entry request consisting of a customer id and an array of items consiting of product ids and quantity. It will take 
-this data and make an HTTP GET request to InventoryAPI to retrieve the product's name and price. With this information, OrderSystemAPI will 
-make a full order summary including a total cost. 
+The OrderSystemAPI project recieves an order entry request made up of a customer id and an array of items consiting of product ids and quantity. It will take this data and make an HTTP GET request to InventoryAPI to retrieve the product's name and price. With this information, OrderSystemAPI will make a full order summary including a total cost. 
 
 The ClientApp includes an HTML webpage to see this order summary on any browser. 
 
@@ -40,7 +38,7 @@ This Project is using the SQL Server on Visual Studio 2017 for its database.
 #ENTER AN ORDER ENTRY 
   - Open Postman (or a software similar for making HTTP requests)
   - Enter a POST Request with the following URL: https://localhost:44310/api/order
-  - Copy-and-Paste the JSON Entry example above into the Body section. Select the 'raw' button and select JSON as the text type. 
+  - Copy-and-Paste the JSON Entry example above into the Body section. Click the 'raw' button and select JSON as the text type. 
   - Click the blue SEND button and it should return a 201 Created status code along with a full order summary as seen below: 
  
   {
