@@ -35,7 +35,7 @@ This Project is using the SQL Server on Visual Studio 2017 for its database.
 - Then type "Update-Database". This will upload the databases under the OrderAPI database folder.
 - Open the InventoryAPI project 
 - repeat Steps 2-4 to drop and update the database
-- Open the SQL Server Object Extension window in VS to view the DB tables for the OrderAPI and ProductAPI, respectively.
+- Open the SQL Server Object Extension window in VS to view the DB tables for the OrderAPI and ProductAPI DBs, respectively, under the MSSQLLocalDB folder.
 
 #ENTER AN ORDER ENTRY 
   - Open Postman (or a software similar for making HTTP requests)
