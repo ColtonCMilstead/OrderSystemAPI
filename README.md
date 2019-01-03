@@ -35,7 +35,7 @@ This Project is using the SQL Server on Visual Studio 2017 for its database.
 - repeat Steps 2-4 to drop and update the database
 - Open the SQL Server Object Extension window in VS to view the DB tables for the OrderAPI and ProductAPI DBs, respectively, under the MSSQLLocalDB folder.
 
-#ENTER AN ORDER ENTRY 
+# ENTER AN ORDER ENTRY 
   - Open Postman (or a software similar for making HTTP requests)
   - Enter a POST Request with the following URL: https://localhost:44310/api/order
   - Copy-and-Paste the JSON Entry example above into the Body section. Click the 'raw' button and select JSON as the text type. 
@@ -88,7 +88,7 @@ This Project is using the SQL Server on Visual Studio 2017 for its database.
   The HTML page will display a list of order IDs currently in the DB. Below it is a text box to enter an Order ID to display
   that order's summary (list of products, quantity, and Total Cost). 
   
-  #ENDPOINTS 
+  # ENDPOINTS 
   
   - (POST) https://localhost:44310/api/order
     - creates an order, if included with JSON body
