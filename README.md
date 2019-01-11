@@ -5,7 +5,8 @@ The OrderSystemAPI project recieves an order entry request made up of a customer
 
 The ClientApp includes an HTML webpage to see this order summary on any browser. 
 
-Below is an example of the order entry request: 
+Below is an example of the JSON order entry request:
+
 {
   "customerId": "12345",
   "items": [
